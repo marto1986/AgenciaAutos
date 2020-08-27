@@ -6,6 +6,7 @@ using System.Configuration;
 using System.Data.Common;
 using System.Data;
 using AgenciaAutos.Comun;
+using System.Web.Services.Description;
 
 namespace AgenciaAutos.Datos
 {
@@ -81,7 +82,7 @@ namespace AgenciaAutos.Datos
             param1.ParameterName = "Precio";
             parametros.Add(param1);
 
-            return ejecutaNonQuery("AltasAuto", parametros);
+            return ejecutaNonQuery("AltasAutos", parametros);
         }
 
         public int ActualizarAuto(int AutoId, string Marca, decimal Precio)

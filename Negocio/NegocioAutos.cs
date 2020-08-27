@@ -53,5 +53,11 @@ namespace AgenciaAutos.Negocio
             DatoAuto datAuto = new DatoAuto();
             return datAuto.select_AutosById(AutoId);
         }
+
+        public int EliminarAuto(int AutoId)
+        {
+            DatoAuto datAuto = new DatoAuto();
+            return datAuto.EliminarAuto(AutoId);
+        }
     }
 }
