@@ -14,7 +14,7 @@
 
 ### Requisitos
 
-* Visual Studio V4.0 o superior
+* Visual Studio Framework V4.0 o superior
 
 ### Instalación
 
