@@ -1,6 +1,6 @@
 ## Agencia de Autos - Proyecto ASP Net C#
 
-### implementa la metodología de las 3 capas (Presentación - Negocio - Datos) y ejecuta Stored Procedure para realizar el CRUD
+### Implementa la metodología de las 3 capas (Presentación - Negocio - Datos) y ejecuta Stored Procedure para realizar el CRUD
 
 ### :computer: Tecnología utilizada
 
